@@ -1,0 +1,12 @@
+.rContainer span {
+    font-weight: 700;
+}
+
+.rContainer {
+    margin-bottom: 30px;
+}
+
+#checkbox {
+    cursor: pointer;
+    margin-bottom: 15px;
+}

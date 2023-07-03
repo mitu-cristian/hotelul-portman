@@ -1,0 +1,101 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+} */
+
+
+.formInput-me {
+    width: 300px;
+}
+
+.inputbox-content-me label {
+    font-family: 'Raleway';
+}
+
+.input-content-me {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .input-content-me .inputbox-me {
+    overflow: hidden;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .input-content-me .inputbox-content-me {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-content-me .inputbox-content-me input {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    line-height: 30px;
+    font-size: 14px;
+    border: 0;
+    background: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    border-radius: 0;
+    color: #183456;
+  }
+  .input-content-me .inputbox-content-me input:focus ~ label, .input-content-me .inputbox-content-me input:valid ~ label,
+  .input-content-me .inputbox-content-me input:invalid ~ label {
+    color: #183456;
+    transform: translateY(-20px);
+    font-size: 0.825em;
+    cursor: default;
+  }
+  .input-content-me .inputbox-content-me input:focus ~ .underline-me {
+    width: 100%;
+  }
+  .input-content-me .inputbox-content-me label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    cursor: text;
+    transition: all 200ms ease-out;
+    z-index: 10;
+  }
+  .input-content-me .inputbox-content-me .underline-me {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    /* background: rgb(255, 153, 0); */
+    background: #183456;
+    transition: all 200ms ease-out;
+  }
+
+.error-message {
+    color: rgb(255, 217, 0);
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.formInput-me .info {
+    color: gray;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.formInput-me .info.checked {
+    color: #183456;
+    font-weight: 700;
+}

@@ -1,0 +1,60 @@
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 30px;
+    /* background: gray; */
+}
+
+#contul-meu {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+/* Make the button larger */
+
+.button-86.me-page {
+    width: fit-content;
+    margin: 20px auto;
+}
+
+/* Custom style for the fieldsets */
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Center "Your user information are" */
+.update-user-info h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Center "Schimba parola" */
+.update-user-password h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.see-review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.no-review {
+    text-align: center;
+}
+
+#add-review-description {
+    font-size: 17px;
+    margin-top: 20px;
+    font-family: "Poppins";
+}

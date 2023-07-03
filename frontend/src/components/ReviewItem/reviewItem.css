@@ -1,0 +1,68 @@
+.my-review-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.my-review {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 700px;
+    padding: 20px;
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review-header .left-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-header .left-panel .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.review-header .left-panel .user{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.review-header .left-panel .when {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#created-at {
+    font-size: 18px;
+    font-family: "Poppins";
+    color: black;
+}
+
+#created-at span, #updated-at span {
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+
+
+/* Title */
+
+.my-review .title {
+    font-size: 30px;
+    font-family: "Poppins";
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.my-review .description {
+    font-size: 20px;
+}

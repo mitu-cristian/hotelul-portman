@@ -1,0 +1,40 @@
+.box-room {
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.box-room {
+    padding: 20px;
+    width: 400px;
+    height: fit-content;
+    border-radius: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-room img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* .box-facility p {
+    text-align: center;
+    font-size: 15px;
+} */
+
+.box-room h2{
+    font-family: 'Raleway';
+    font-size: 25px;
+    padding: 10px;
+}
+
+.box-room button {
+    margin: 30px;
+}

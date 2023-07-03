@@ -1,0 +1,206 @@
+.register-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.register-container .container-img {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.register-container img {
+    height: 900px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.register-container .content {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 58%;
+    height: calc(100% - 44px);
+    background: transparent;
+    padding: 80px;
+    color: rgb(41, 41, 41);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.register-container .content .logo-form {
+    font-weight: 400;
+    font-size: 60px;
+    font-family: "Satisfy";
+}
+
+.register-container h2 {
+    text-align: center;
+}
+
+.register-container .content img {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.register-container .text-sci h2 {
+    font-size: 40px; 
+    line-height: 1;
+}
+
+.register-container .text-sci h2 span {
+    font-size: 25px;
+}
+
+.register-container .text-sci p{
+    font-size: 16px;
+    margin: 20px 0;
+    
+}
+
+.register-container .social-icons a {
+    margin-right: 10px;
+    color:#e4e4e4;
+}
+
+.register-container .logreg-box {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 42%;
+    height: calc(100% - 44px);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+}
+
+
+.register-container .logreg-box .form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(20px) brightness(70%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+} 
+
+.register-container .form-box h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.register-container .form-box .input-box {
+    position: relative;
+    width: 240px;
+    height: 50px;
+    border-bottom: 2px solid #e4e4e4;
+    margin: 30px 0;
+}
+
+.register-container .input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color:#e4e4e4;
+    font-weight: 500;
+    padding-right: 28px;
+}
+
+.register-container .input-box label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 500;
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+.register-container .input-box input:focus~label,
+.register-container .input-box input:valid~label, 
+.register-container .input-box input:invalid~label {
+top: -2px;
+}
+
+.register-container .input-box .icon {
+    position: absolute;
+    top: 13px;
+    right: 0;
+    font-size: 19px;
+}
+
+.register-container .btn {
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    background: rgb(252, 143, 0);
+    border: 2px solid rgb(252, 143, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+  
+.register-container .btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+  
+.register-container .btn:active {
+    border: 2px solid #fff;
+    background-color: #868686;
+}
+
+.register-container .form-box .login-register {
+    font-size: 14.5px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.register-container .login-register p a {
+    color: #e4e4e4;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+}
+
+.register-container .login-register p a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #e4e4e4;
+    transition: width 0.3s ease-in;
+}
+
+.register-container .login-register p a:hover::after {
+    width: 100%;
+}
+
+.button-86.form-register {
+    margin: 20px auto;
+}
+

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+.formInput {
+    width: 300px;
+}
+
+.inputbox-content label {
+    font-family: 'Raleway';
+}
+
+.input-content {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .input-content .inputbox {
+    overflow: hidden;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .input-content .inputbox-content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-content .inputbox-content input {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    line-height: 30px;
+    font-size: 14px;
+    border: 0;
+    background: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    border-radius: 0;
+    color: white;
+  }
+  .input-content .inputbox-content input:focus ~ label, .input-content .inputbox-content input:valid ~ label,
+  .input-content .inputbox-content input:invalid ~ label {
+    color: white;
+    transform: translateY(-20px);
+    font-size: 0.825em;
+    cursor: default;
+  }
+  .input-content .inputbox-content input:focus ~ .underline {
+    width: 100%;
+  }
+  .input-content .inputbox-content label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    cursor: text;
+    transition: all 200ms ease-out;
+    z-index: 10;
+  }
+  .input-content .inputbox-content .underline {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    /* background: rgb(255, 153, 0); */
+    background: #183456;
+    transition: all 200ms ease-out;
+  }
+
+.error-message {
+    color: rgb(255, 217, 0);
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+input:invalid[focused="true"] + .underline{
+    bottom: 29px;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}
+
+.formInput .info {
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.formInput .info.checked {
+    color: #e4e4e48f;
+}
+

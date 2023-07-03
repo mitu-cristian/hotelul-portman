@@ -1,0 +1,17 @@
+[
+    {
+            "_id": "64451f4cd19aaef2bc7963f9",
+            "title": "Good hotel",
+            "description": "I like it",
+            "rating": 5,
+            "user": "6444053a77f6b2fe2e6dfc96"
+    },
+
+    {
+        "_id": "64452855676cc15f212623bc",
+        "title": "I like the hotel",
+        "description": "I like it",
+        "rating": 4,
+        "user": "6445283e676cc15f212623b8"
+    }
+]

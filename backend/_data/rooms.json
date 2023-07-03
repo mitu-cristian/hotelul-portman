@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "644448bec7774e448096da3b",
+        "title": "Camera 1",
+        "price": 100,
+        "maxPeople": 3,
+        "roomNumbers": [
+          {
+            "number": 101,
+            "unavailableDates": [],
+            "_id": "644448bec7774e448096da3c"
+          },
+          {
+            "number": 102,
+            "unavailableDates": [],
+            "_id": "644448bec7774e448096da3d"
+          }
+        ]
+      }
+]

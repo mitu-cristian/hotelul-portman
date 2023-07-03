@@ -1,0 +1,123 @@
+.booking-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 0px;
+    width: 1100px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.booking-form .greeting {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.booking-box {
+    width: 150px;
+    cursor: pointer;
+    position: relative;
+}
+
+svg {
+    cursor: pointer;
+}
+
+/* start of calendar */
+
+.booking-box.calendar {
+    width: 350px;
+    cursor:default;
+    /* position: relative; */
+}
+
+.calendar-item {
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+}
+
+.rdrCalendarWrapper{
+    border-radius: 10px;
+}
+
+.rdrDateDisplayWrapper {
+    border-radius: 10px;
+}
+
+.rdrCalendarWrapper.rdrDateRangeWrapper.calendar-item {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+/* End of calendar */
+
+.booking-box .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Poppins";
+    font-size: 15px;
+}
+
+.booking-box svg {
+    transform: rotate(90deg);
+    height: 19px;
+}
+
+.booking-box .chosen-option {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+}
+  
+.dropdown-header {
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    }
+      
+#dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 40px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#dropdown-menu-child {
+    position: absolute;
+    top: 100%;
+    left: 40px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.dropdown-item {
+padding: 8px 12px;
+cursor: pointer;
+width: 50px;
+text-align: center;
+}
+
+.dropdown-item:hover {
+background-color: #e4e4e4;
+}
+    
+.dropdown-item.checked {
+    background-color: rgb(61, 145, 255);
+}
+
+.dropdown-item.checked:hover {
+    background-color: rgba(61, 145, 255, 0.521);
+}

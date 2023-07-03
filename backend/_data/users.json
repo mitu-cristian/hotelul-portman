@@ -1,0 +1,33 @@
+[
+    {
+        "_id": "6443ea751c13cef1ee944e6f",
+        "firstname": "admin",
+        "lastname": "admin",
+        "email": "admin@gmail.com",
+        "password": "123456"
+      },
+
+      {
+        "_id": "6443f9d82efbb581b9cd4caa",
+        "firstname": "admin2",
+        "lastname": "admin2",
+        "email": "admin2@gmail.com",
+        "password": "123456"
+      },
+
+      {
+        "_id": "6444053a77f6b2fe2e6dfc96",
+        "firstname": "Cristian",
+        "lastname": "Mitu",
+        "email": "cristian@gmail.com",
+        "password": "123456"
+      },
+
+      {
+        "_id": "6445283e676cc15f212623b8",
+        "firstname": "John",
+        "lastname": "Doe",
+        "email": "john@gmail.com",
+        "password": "123456"
+      }
+]
